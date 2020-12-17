@@ -25,7 +25,7 @@ public class MySeleniumMethods {
 
 
 
-    // CheckIfElementExist - bylo na kursie, ale chyba bez sensu, bo sa przeciez asercje
+    // CheckIfElementExist
     public static boolean checkIfElementExist(By locator, WebDriver driver) {
         if (driver.findElements(locator).size() > 0) {
          //   System.out.println("Element istnieje na stronie");
