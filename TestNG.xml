@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="3">
-    <test name="SearchHotelTest" parallel="methods" thread-count="5">
+    <test name="play24Main" parallel="methods" thread-count="5">
         <classes>
-            <class name="com.phptravels.tests.SearchHotelTest" />
-        </classes>
-    </test>
-    <test name="SimpleGoogleSearch" parallel="methods" thread-count="5">
-        <classes>
-            <class name="com.phptravels.tests.SimpleGoogleSearch" />
+            <class name="play24.tests.Play24" />
         </classes>
     </test>
 </suite>

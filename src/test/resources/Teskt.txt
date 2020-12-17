@@ -1,4 +1,0 @@
-To jest tekst dla celów naukowych
-To jest druga linia
-
-To jest czwarta linia
