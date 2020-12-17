@@ -1,0 +1,4 @@
+NrTelefonu;Konto;Internet;MinutyDoPlay
+881 722 810;0,00 z? (wa?ne do 12.01.2022);1,51 GB;Bez limitu
+733 265 439;4,43 z? (wa?ne do 05.01.2022);1,54 GB;Bez limitu
+575 414 366;0,00 z? (wa?ne do 28.12.2021);116 MB;Bez limitu
