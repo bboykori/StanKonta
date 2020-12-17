@@ -8,7 +8,6 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import play24.drivers.DriverFactory;
 import play24.drivers.DriverType;
 import play24.helpers.MySeleniumMethods;
-import play24.exceptions.NoSuchDriverException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
@@ -50,7 +49,7 @@ public abstract class BaseSeleniumTest {
 
 
     @BeforeMethod
-    public void setUp() throws NoSuchDriverException {
+    public void setUp() {
         log.debug("Before Method");
        // System.out.println("Before Mrthod");
         driver = DriverFactory.getDriver(DriverType.CHROME); // OPTIONS: CHROME, FIREFOX, IE
