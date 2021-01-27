@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="selenium" />
-        <module name="StanKonta" />
+        <module name="MySeleniumFramework" />
       </profile>
     </annotationProcessing>
   </component>

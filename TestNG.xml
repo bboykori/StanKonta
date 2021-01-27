@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests" thread-count="3">
-    <test name="play24Main" parallel="methods" thread-count="5">
+<suite name="Suite" thread-count="5">
+
+    <test name="CheckLastRecordAge" parallel="methods" thread-count="5">
         <classes>
-            <class name="play24.tests.Play24" />
+            <class name="SatelliteApp.tests.CheckLastRecordAge" />
         </classes>
     </test>
+
+    <test name="CheckOldestRecordAge" parallel="methods" thread-count="5">
+        <classes>
+            <class name="SatelliteApp.tests.CheckOldestRecordAge" />
+        </classes>
+    </test>
+
+    <test name="ReadOnlyUserVerification" parallel="methods" thread-count="5">
+        <classes>
+            <class name="SatelliteApp.tests.ReadOnlyUserVerification" />
+        </classes>
+    </test>
+
 </suite>
